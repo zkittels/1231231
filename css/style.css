@@ -1,0 +1,568 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    margin-bottom: 100px;
+    background-image: url(/img/photo/bgheader.png);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+
+.logo {
+    padding: 37px 67px;
+}
+
+.nav_block {
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    padding: 37px 67px;
+    display: flex;
+    align-items: center;
+}
+
+.nav img {
+    cursor: pointer;
+}
+
+
+.sel {
+    margin-right: 90px;
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #195557;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+.link_nav {
+    margin-right: 90px;
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #195557;
+    text-decoration: none;
+    
+}
+
+.tel {
+    padding: 30px 90px;
+    background-image: url(/img/icons/tel.svg);
+    background-repeat: no-repeat;
+    background-size: 69px;
+    background-position: 10px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #195557;
+    text-decoration: none;
+}
+
+.by_ejick {
+    margin-bottom: 126px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.by_ejick img {
+    margin-bottom: 98px;
+}
+
+.text__by_ejick {
+    margin-bottom: 35px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #70908B;
+}
+
+.btn__by_ejick {
+    cursor: pointer;
+    padding: 27px 115px;
+    border: none;
+    background: #70908B;
+    box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+    border-radius: 40px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+   
+}
+
+.btn__by_ejick:hover {
+    opacity: .7;
+}
+
+.blocks_info {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.card_info {
+    margin: 23px 75px;
+    width: 191px;
+    text-align: center;
+}
+
+.card_info_two {
+    margin: 0px 75px;
+    width: 191px;
+    text-align: center;
+}
+
+.icon_elipse {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 152px;
+    height: 152px;
+    background-color: #FFEDCD;
+    border-radius: 50%;
+}
+
+.title__card_info {
+    margin-bottom: 8px;
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #195557;
+}
+
+.text__card_info {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #195557;
+}
+
+.ejick_left {
+    position: absolute;
+    left: 0;
+    bottom: -55px;
+}
+
+.ejick_right {
+    position: absolute;
+    right: 0;
+    bottom: -45px;
+}
+
+.cards_ejicks {
+    margin-bottom: 150px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.card__slider {
+    position: relative;
+    padding-top: 54px;
+    padding-left: 59px;
+    margin: 0px 20px;
+    width: 570px;
+    height: 397px;
+    display: flex;
+    background-image: url(/img/photo/bgcard.png);
+    background-repeat: no-repeat;
+}
+
+.bg_card__slider {
+    background-image: url(/img/photo/bgcardtwo.png);
+    background-repeat: no-repeat;
+}
+
+.card__slider img {
+    margin-top: 50px;
+    margin-right: 4px;
+}
+
+.title_card__slider {
+    margin-bottom: 17px;
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #195557;
+}
+
+.text_crad__slider {
+    margin-bottom: 15px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.old_price {
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: line-through;
+    color: #C2CCCA;
+}
+
+.new_price {
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #195557;
+}
+
+.btn_more_card__slider {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: -31px;
+    right: 25px;
+}
+
+.discount_card__slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #70908B;
+    width: 68px;
+    height: 36px;
+    position: absolute;
+    top: -6px;
+    left: 62px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.plus {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.btn_next_prev {
+    cursor: pointer;
+}
+
+.form {
+    position: relative;
+    max-width: 1197px;
+    height: 484px;
+    margin: auto;
+    margin-bottom: 95px;
+    display: flex;
+    justify-content: center;
+    background-image: url(/img/photo/bgform.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title_content__form {
+    margin-top: 39px;
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #195557;
+}
+
+.one_block_form {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.want_btn {
+    margin-right: 14px;
+    padding: 16px 27px;
+    background: #FFFFFF;
+    border: 2px solid #70908B;
+    border-radius: 61px;
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #70908B;
+ 
+}
+
+.want_btn:hover {
+    cursor: pointer;
+    background-color: rgba(112, 144, 139, 1);
+    color: white;
+}
+
+.block_radio {
+    margin-left: 77px;
+    width: 390px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rad {
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #70908B;
+}
+
+.check {
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+
+}
+
+.check+label {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.check+label::before {
+    cursor: pointer;
+    content: '';
+    width: 1em;
+    height: 1em;
+    border: 1px solid #70908B;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% 50%;
+}
+
+.check:checked+label::before {
+    background-image: url(/img/icons/Ellipseradio.svg);
+    background-size: 8px;
+}
+
+.check:disabled+label::before {
+    background-color: #e9ecef;
+}
+
+.name_tel_email {
+    margin-top: 43px;
+}
+
+.item__name_tel_email {
+    padding-left: 27px;
+    margin-right: 20px;
+    border-radius: 8px;
+    width: 352px;
+    height: 62px;
+    border: none;
+    background-color: #F8F8F8;
+    outline: none;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #195557;
+}
+
+input::placeholder {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #195557;
+}
+
+.textarea {
+    margin-top: 20px;
+    width: 1096px;
+    height: 108px;
+    background-color: #F8F8F8;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+textarea {
+    padding: 28px 21px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #195557;
+}
+
+textarea::placeholder {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #195557;
+}
+
+.by_btn_form {
+    cursor: pointer;
+    position: absolute;
+    bottom: -35px;
+    padding: 26px 115px;
+    border: none;
+    background: #70908B;
+    box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+    border-radius: 40px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}
+
+.by_btn_form:hover {
+    opacity: .7;
+}
+
+.stock {
+    margin-bottom: 60px;
+    position: relative;
+    text-align: center;
+}
+
+.stock img {
+    position: absolute;
+    top: 3px;
+    left: 39.5%;
+}
+
+.title__stock {
+    margin-bottom: 30px;
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #195557;
+}
+
+.text__stock {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #195557;
+}
+
+.footer {
+    width: 100%;
+    height: 184px;
+    background-color: #70908B;
+}
+
+.logoFooter {
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.privacy {
+    margin-top: 24px;
+    margin-left: 60px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 131.4%;
+    color: #FFFFFF;
+}
+
+.content_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__footer {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.link_nav_footer {
+    cursor: pointer;
+    margin-right: 90px;
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+   
+}
+
+
+
+.tel__footer {
+    margin-right: 60px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.social_footer {
+    margin-right: 71px;
+}
+
+.soc_icon {
+    cursor: pointer;
+    margin: 0px 7px;
+   
+}
+
